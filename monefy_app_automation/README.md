@@ -33,12 +33,15 @@ I have been using an Excel file almost daily for several years to monitor expens
 With the use of this application, one can determine the categories of expenses, the prevailing percentage of expenses, and determine the monthly amount allocated to savings
 
  
-## I choosed Appium, while:
+## I choose Appium, while:
 
     I can Test the same app it submited to the marketplace 
 	Write my tests in any language, using any framework
     I can use a standard automation specification and API
     I can build a large and thriving open-source community effort
+	and it is an open source automation testing tool 
+	for testing	a native mobile application and mobile-web application on both the platforms iOS and android 
+	using a WebDriver.
 
 	
 	
