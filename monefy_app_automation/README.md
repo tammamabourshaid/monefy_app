@@ -43,12 +43,12 @@ I have set On SDK Manager
 # Install apk on the virtual device
 Run the next steps to install the APK to the Emulator in Android Studio:
 
-1- Run the emulator, and wait until it's completely started.
-2- Go to your sdk installation folder then go to platform-tools (you should see an executable called adb.exe)
-3- create a new file and call it run.bat, edit the file with notepad and write CMD in it and save it.
-4- copy your desired apk to the same folder
-5- now open run.bat and write adb install "com.monefy.app.lite.apk"
-6- wait until the installation is complete 
+- Run the emulator, and wait until it's completely started.
+- Go to your sdk installation folder then go to platform-tools (you should see an executable called adb.exe)
+- create a new file and call it run.bat, edit the file with notepad and write CMD in it and save it.
+- copy your desired apk to the same folder
+- now open run.bat and write adb install "com.monefy.app.lite.apk"
+- wait until the installation is complete 
 
 # Run the project within Android Studio
 With the virtual device opened, In the test folder run Test file 'MonefyTest.java'
