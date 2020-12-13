@@ -29,10 +29,10 @@ public class PercentageOfFoodExpense {
         selectAmount.click();
         String amountText =selectAmount.getText();
 
-        Integer numberFoodPercentage = Integer.parseInt(foodPercentage);
-        Integer numberAmountText = Integer.parseInt(amountText);
+        Integer foodExpense = Integer.parseInt(foodPercentage);
+        Integer amountWithdrawn = Integer.parseInt(amountText);
 
-        Integer calculatePercentage = numberAmountText/numberFoodPercentage;
+        Integer calculatePercentage = foodExpense/amountWithdrawn;
         String percentage = calculatePercentage.toString().trim().substring(2);
 
         Assert.assertEquals(percentageField.getText(), percentage);
