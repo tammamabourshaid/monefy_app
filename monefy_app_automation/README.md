@@ -7,14 +7,12 @@ A list of ideas/bullet points I test for:
 -	Check the percentage of the expense if it is correct 
 -	Delete an expense and check the Total Balance has reduce the deleted amount.
 
-
-I explore the Income first with insert an amount (150 $), while the balance was ZERO (First use of the APP).
-then explore how total balance is change, and how correctly calculate expenses.
-to check the percentage of an expense by divided expense amount on amount withdrawn.
-then delete an expense to check total balance has reduce this expense
+## Prioritization
+Explore income first by entering an amount, while the balance was zero (first use of the app), 
+to avoid getting rejected results if the balance is equal to zero.
 
 
-# The possibilities of automating proposed test cases on different levels:
+## The possibilities of automating proposed test cases on different levels:
 the first case - the positive point
 The budget entry had to be tested above all to ensure that the budget was properly updateable from each entry
 Negative point - wrong entry, back to delete the record
@@ -35,7 +33,7 @@ I have been using an Excel file almost daily for several years to monitor expens
 With the use of this application, one can determine the categories of expenses, the prevailing percentage of expenses, and determine the monthly amount allocated to savings
 
  
-# I choosed Appium, while:
+## I choosed Appium, while:
 
     I can Test the same app it submited to the marketplace 
 	Write my tests in any language, using any framework
